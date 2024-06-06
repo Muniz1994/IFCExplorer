@@ -1,0 +1,4026 @@
+{
+  "geometryExporterVersion": "1.2",
+  "uniZiteMetadataExporterVersion": "1.2",
+  "ifcSchemaVersion": "ifc2x3",
+  "elements": [
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80ap",
+      "ifcEntityLabel": 8859,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318140"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80Y8",
+      "ifcEntityLabel": 8874,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318215"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80Y4",
+      "ifcEntityLabel": 8885,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318219"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80Y0",
+      "ifcEntityLabel": 8896,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318223"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80_N",
+      "ifcEntityLabel": 8974,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318488"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80yy",
+      "ifcEntityLabel": 9062,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318643"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_ConcreteElementGeneral",
+          "properties": [
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_PrecastConcreteElementGeneral",
+          "properties": [
+            {
+              "Name": "SerialNumber",
+              "Value": "n/a"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "1ZAenL12bBzuBbf29geL_L",
+      "ifcEntityLabel": 32250,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_DrsetSym_Interior-Double_FullyGlazed:1510x2100mm:373533"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_DrsetSym_Interior-Double_FullyGlazed:1510x2100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_ConcreteElementGeneral",
+          "properties": [
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_PrecastConcreteElementGeneral",
+          "properties": [
+            {
+              "Name": "SerialNumber",
+              "Value": "n/a"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "1ZAenL12bBzuBbf29geLyA",
+      "ifcEntityLabel": 32297,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_DrsetSym_Interior-Double_FullyGlazed:1510x2100mm:373634"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_DrsetSym_Interior-Double_FullyGlazed:1510x2100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_ConcreteElementGeneral",
+          "properties": [
+            {
+              "Name": "FireRating",
+              "Value": "Unrated"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_PrecastConcreteElementGeneral",
+          "properties": [
+            {
+              "Name": "SerialNumber",
+              "Value": "n/a"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "Unrated"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "1ZAenL12bBzuBbf29geJF1",
+      "ifcEntityLabel": 39658,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_AssaAbloyLtd_DrsetSym_AASDTimberCertifiedSecurityDoor_Single:1000x2100mm:384841"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_AssaAbloyLtd_DrsetSym_AASDTimberCertifiedSecurityDoor_Single:1000x2100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGtf",
+      "ifcEntityLabel": 45814,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:385377"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGuX",
+      "ifcEntityLabel": 45865,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:385705"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_DoorCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcDoor",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGuc",
+      "ifcEntityLabel": 45898,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:385710"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Doors_IntSgl:810x2110mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_MemberCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Stringer-50mm_Width"
+            },
+            {
+              "Name": "Slope",
+              "Value": "33.690067525979821"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcMember",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84P8p",
+      "ifcEntityLabel": 2452,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Stringer 1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Stringer:Stringer-50mm_Width"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_MemberCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Stringer-50mm_Width"
+            },
+            {
+              "Name": "Slope",
+              "Value": "33.690067525979813"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcMember",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84P8o",
+      "ifcEntityLabel": 2468,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Stringer 2"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Stringer:Stringer-50mm_Width"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_MemberCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcMember",
+      "ifcGuid": "1P0aDda3NRcFLJg26oFMEl",
+      "ifcEntityLabel": 2485,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Stringer 1:2"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Stringer:Stringer-50mm_Width"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_MemberCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcMember",
+      "ifcGuid": "2MZB6YUbOWlyx2nRTOKpA0",
+      "ifcEntityLabel": 2488,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Stringer 1:3"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Stringer:Stringer-50mm_Width"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_MemberCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcMember",
+      "ifcGuid": "3jTxJcKoIczYuh79SJV7oe",
+      "ifcEntityLabel": 2493,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Stringer 2:2"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Stringer:Stringer-50mm_Width"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_MemberCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcMember",
+      "ifcGuid": "0lrPqw5UKq4AHYm5XKUcVv",
+      "ifcEntityLabel": 2496,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Stringer 2:3"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Stringer:Stringer-50mm_Width"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PKl",
+      "ifcEntityLabel": 46258,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316606"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "0_IKKfcKVTgzDY5BfBqImu",
+      "ifcEntityLabel": 46265,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316606"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "33q4ATV5cU5WbE2F_NAYw7",
+      "ifcEntityLabel": 46271,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316606"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PLJ",
+      "ifcEntityLabel": 46630,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316610"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "3CxIerOfjejQXfPPUvQAez",
+      "ifcEntityLabel": 46636,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316610"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "2hwbwkvk8I49aMLwuNphcY",
+      "ifcEntityLabel": 46642,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316610"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PJP",
+      "ifcEntityLabel": 47295,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316744"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PHt",
+      "ifcEntityLabel": 47413,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:316902"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "1100mm"
+            },
+            {
+              "Name": "Height",
+              "Value": "1.1"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PVY",
+      "ifcEntityLabel": 47531,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:1100mm:317043"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:1100mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Glass_Panel-Bottom_Fill"
+            },
+            {
+              "Name": "Height",
+              "Value": "0.9"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "2$tIMZwq5DX9gnklH48Pcy",
+      "ifcEntityLabel": 48965,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:Glass_Panel-Bottom_Fill:324542"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:Glass_Panel-Bottom_Fill"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RailingCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Glass_Panel-Bottom_Fill"
+            },
+            {
+              "Name": "Height",
+              "Value": "0.9"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRailing",
+      "ifcGuid": "2$tIMZwq5DX9gnklH48Pvg",
+      "ifcEntityLabel": 50404,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Railing:Glass_Panel-Bottom_Fill:324712"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Railing:Glass_Panel-Bottom_Fill"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_RoofCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ProjectedArea",
+              "Value": "64.32575000000017"
+            },
+            {
+              "Name": "TotalArea",
+              "Value": "68.454033347842582"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcRoof",
+      "ifcGuid": "2OKVAKQ5L0Sh_dX43vgm8g",
+      "ifcEntityLabel": 9118,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Roof:Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd:335257"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Roof:Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_SlabCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            },
+            {
+              "Name": "PitchAngle",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_ReinforcementBarPitchOfSlab",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcSlab",
+      "ifcGuid": "2y1OcZ9QbCUwOhLlus$vPL",
+      "ifcEntityLabel": 844,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51:313850"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_SlabCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            },
+            {
+              "Name": "PitchAngle",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_ReinforcementBarPitchOfSlab",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcSlab",
+      "ifcGuid": "2y1OcZ9QbCUwOhLlus$vIT",
+      "ifcEntityLabel": 919,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51:314162"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_SlabCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            },
+            {
+              "Name": "PitchAngle",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_ReinforcementBarPitchOfSlab",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcSlab",
+      "ifcGuid": "2y1OcZ9QbCUwOhLlus$vJY",
+      "ifcEntityLabel": 976,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51:314189"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_SlabCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Grnd-Bearing_65Scr-90Ins-125Conc-50SBld-150Hcore"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            },
+            {
+              "Name": "PitchAngle",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_ReinforcementBarPitchOfSlab",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Grnd-Bearing_65Scr-90Ins-125Conc-50SBld-150Hcore"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcSlab",
+      "ifcGuid": "2y1OcZ9QbCUwOhLlus$vGd",
+      "ifcEntityLabel": 1015,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Grnd-Bearing_65Scr-90Ins-125Conc-50SBld-150Hcore:314248"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Floor:Floor-Grnd-Bearing_65Scr-90Ins-125Conc-50SBld-150Hcore"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_SlabCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "PitchAngle",
+              "Value": "20"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_ReinforcementBarPitchOfSlab",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcSlab",
+      "ifcGuid": "2OKVAKQ5L0Sh_dX4Bvgm8g",
+      "ifcEntityLabel": 9138,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Roof:Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd:335257"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Roof:Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_SlabCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "PitchAngle",
+              "Value": "20"
+            }
+          ]
+        },
+        {
+          "propertySetName": "Pset_ReinforcementBarPitchOfSlab",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcSlab",
+      "ifcGuid": "2OKVAKQ5L0Sh_dX4Fvgm8g",
+      "ifcEntityLabel": 9191,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Roof:Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd:335257"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Roof:Roof_Pitched_38Tile-25Bat-0Felt-25bat-100Ins-150Truss-12PBd"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_StairCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "NumberOfRiser",
+              "Value": "18"
+            },
+            {
+              "Name": "NumberOfTreads",
+              "Value": "17"
+            },
+            {
+              "Name": "RiserHeight",
+              "Value": "0.16666666666666666"
+            },
+            {
+              "Name": "TreadLength",
+              "Value": "0.25"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcStair",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PDy",
+      "ifcEntityLabel": 1832,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Assembled Stair:Private"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_StairCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "NumberOfRiser",
+              "Value": "18"
+            },
+            {
+              "Name": "NumberOfTreads",
+              "Value": "17"
+            },
+            {
+              "Name": "RiserHeight",
+              "Value": "0.16666666666666666"
+            },
+            {
+              "Name": "TreadLength",
+              "Value": "0.25"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcStair",
+      "ifcGuid": "2Lg8dgFsdDPpSDtQbWbBYT",
+      "ifcEntityLabel": 2497,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141:2"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Assembled Stair:Private"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_StairCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "NumberOfRiser",
+              "Value": "18"
+            },
+            {
+              "Name": "NumberOfTreads",
+              "Value": "17"
+            },
+            {
+              "Name": "RiserHeight",
+              "Value": "0.16666666666666666"
+            },
+            {
+              "Name": "TreadLength",
+              "Value": "0.25"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcStair",
+      "ifcGuid": "0ULi3WyTeF9KmCoh0Iy6h$",
+      "ifcEntityLabel": 2498,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141:3"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Assembled Stair:Private"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_StairFlightCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wood_Steps_w-50mm_Tread-10mm_Nosing-13mm_Riser"
+            },
+            {
+              "Name": "NumberOfRiser",
+              "Value": "18"
+            },
+            {
+              "Name": "NumberOfTreads",
+              "Value": "17"
+            },
+            {
+              "Name": "RiserHeight",
+              "Value": "0.16666666666666666"
+            },
+            {
+              "Name": "TreadLength",
+              "Value": "0.25"
+            },
+            {
+              "Name": "NosingLength",
+              "Value": "0.01"
+            },
+            {
+              "Name": "WalkingLineOffset",
+              "Value": "1.6404199475065615"
+            },
+            {
+              "Name": "TreadLengthAtOffset",
+              "Value": "0.25"
+            },
+            {
+              "Name": "TreadLengthAtInnerSide",
+              "Value": "0.25"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcStairFlight",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84P8n",
+      "ifcEntityLabel": 2427,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Run 1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Non-Monolithic Run:Wood_Steps_w-50mm_Tread-10mm_Nosing-13mm_Riser"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_StairFlightCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "NumberOfRiser",
+              "Value": "18"
+            },
+            {
+              "Name": "NumberOfTreads",
+              "Value": "17"
+            },
+            {
+              "Name": "RiserHeight",
+              "Value": "0.16666666666666666"
+            },
+            {
+              "Name": "TreadLength",
+              "Value": "0.25"
+            },
+            {
+              "Name": "NosingLength",
+              "Value": "0.01"
+            },
+            {
+              "Name": "WalkingLineOffset",
+              "Value": "1.6404199475065615"
+            },
+            {
+              "Name": "TreadLengthAtOffset",
+              "Value": "0.25"
+            },
+            {
+              "Name": "TreadLengthAtInnerSide",
+              "Value": "0.25"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcStairFlight",
+      "ifcGuid": "1JE8uAzUoSwroCrEXJIuhl",
+      "ifcEntityLabel": 2477,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Run 1:2"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Non-Monolithic Run:Wood_Steps_w-50mm_Tread-10mm_Nosing-13mm_Riser"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_StairFlightCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Private"
+            },
+            {
+              "Name": "NumberOfRiser",
+              "Value": "18"
+            },
+            {
+              "Name": "NumberOfTreads",
+              "Value": "17"
+            },
+            {
+              "Name": "RiserHeight",
+              "Value": "0.16666666666666666"
+            },
+            {
+              "Name": "TreadLength",
+              "Value": "0.25"
+            },
+            {
+              "Name": "NosingLength",
+              "Value": "0.01"
+            },
+            {
+              "Name": "WalkingLineOffset",
+              "Value": "1.6404199475065615"
+            },
+            {
+              "Name": "TreadLengthAtOffset",
+              "Value": "0.25"
+            },
+            {
+              "Name": "TreadLengthAtInnerSide",
+              "Value": "0.25"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcStairFlight",
+      "ifcGuid": "2xsGHkqt8960stuMSzxrHW",
+      "ifcEntityLabel": 2480,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Assembled Stair:Stair:316141 Run 1:3"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Non-Monolithic Run:Wood_Steps_w-50mm_Tread-10mm_Nosing-13mm_Riser"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHKR",
+      "ifcEntityLabel": 1104,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314398"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHM7",
+      "ifcEntityLabel": 1166,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314498"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHNI",
+      "ifcEntityLabel": 1239,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314583"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHGN",
+      "ifcEntityLabel": 1276,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314642"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHHv",
+      "ifcEntityLabel": 1315,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314748"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHJ9",
+      "ifcEntityLabel": 1353,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314828"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHSL",
+      "ifcEntityLabel": 1425,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314896"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHTE",
+      "ifcEntityLabel": 1462,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314955"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHUT",
+      "ifcEntityLabel": 1510,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315032"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHVg",
+      "ifcEntityLabel": 1545,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315119"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHP5",
+      "ifcEntityLabel": 1628,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315200"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFHPg",
+      "ifcEntityLabel": 1662,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315247"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFGdZ",
+      "ifcEntityLabel": 1697,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315622"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFGWj",
+      "ifcEntityLabel": 1733,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315688"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFGXa",
+      "ifcEntityLabel": 1787,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315745"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3dUPquTnvBDe7uKbalFGYi",
+      "ifcEntityLabel": 1822,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315817"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PR$",
+      "ifcEntityLabel": 2615,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:317294"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84PbW",
+      "ifcEntityLabel": 2665,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:317681"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84Pbb",
+      "ifcEntityLabel": 2687,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:317684"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 3,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "3K1WDbvaDCBuDp$lj84Pbh",
+      "ifcEntityLabel": 2710,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:317690"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80XF",
+      "ifcEntityLabel": 8927,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:318400"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80Xr",
+      "ifcEntityLabel": 8960,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:318458"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "true"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80y8",
+      "ifcEntityLabel": 9004,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:318599"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80y3",
+      "ifcEntityLabel": 9026,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:318604"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "19MoExGJjCSPhKzWIa80y_",
+      "ifcEntityLabel": 9048,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:318641"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGsw",
+      "ifcEntityLabel": 39703,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:385330"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGuW",
+      "ifcEntityLabel": 45851,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:385704"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WallCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Wall-Int_12P-100Blk-12P"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            },
+            {
+              "Name": "ExtendToStructure",
+              "Value": "false"
+            },
+            {
+              "Name": "LoadBearing",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWallStandardCase",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGub",
+      "ifcEntityLabel": 45884,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P:385709"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Basic Wall:Wall-Int_12P-100Blk-12P"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "910x910mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "true"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "2OKVAKQ5L0Sh_dX43vgqbU",
+      "ifcEntityLabel": 9597,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Windows_Sgl_Plain:910x910mm:349933"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Windows_Sgl_Plain:910x910mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geNEj",
+      "ifcEntityLabel": 10032,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:368421"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geNDr",
+      "ifcEntityLabel": 10080,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:368637"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geKoU",
+      "ifcEntityLabel": 10094,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:368662"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "910x910mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geKot",
+      "ifcEntityLabel": 10108,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Windows_Sgl_Plain:910x910mm:368703"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Windows_Sgl_Plain:910x910mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "910x910mm"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geKpG",
+      "ifcEntityLabel": 10119,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Windows_Sgl_Plain:910x910mm:368728"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Windows_Sgl_Plain:910x910mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geKpW",
+      "ifcEntityLabel": 10530,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:368744"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 0,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geKn8",
+      "ifcEntityLabel": 10566,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:368832"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 2,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGrb",
+      "ifcEntityLabel": 45829,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:385517"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": 1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_WindowCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "n/a"
+            },
+            {
+              "Name": "FireRating",
+              "Value": "n/a"
+            },
+            {
+              "Name": "IsExternal",
+              "Value": "false"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcWindow",
+      "ifcGuid": "1ZAenL12bBzuBbf29geGv5",
+      "ifcEntityLabel": 45909,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm:385741"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "NBS_ExtWndwSym_Double_TopHungLight-TopHungLight:TopHungLight-TopHungLight_1200x1200mm"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "12OzXSGRoua$lDzHs5SPwV",
+      "ifcEntityLabel": 855,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51:185852"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1YFJW3CFf$Vbl1NhQxegKs",
+      "ifcEntityLabel": 930,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51:185852"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "Floor-Upper_160mmConc-CorusComFlor51"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "334Pt$ii41OCIKHxc2qJb8",
+      "ifcEntityLabel": 987,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Floor:Floor-Upper_160mmConc-CorusComFlor51:185852"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3fvX5J1FFAP7SCmwzy$CLZ",
+      "ifcEntityLabel": 1179,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314498"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1_GPwL3nnMJafxdg9w$Lcb",
+      "ifcEntityLabel": 1193,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314498"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "0yYw77FHJW3xPP$gxYetyl",
+      "ifcEntityLabel": 1366,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314828"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "29rws8yxX2EplXz1ulow1n",
+      "ifcEntityLabel": 1380,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314828"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "2OOlXgZKUyBoNkIc7tI$Se",
+      "ifcEntityLabel": 1558,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315119"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3u29WF3IW0xtX6yhghR1YI",
+      "ifcEntityLabel": 1572,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315119"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [
+        {
+          "propertySetName": "Pset_OpeningElementCommon",
+          "properties": [
+            {
+              "Name": "Reference",
+              "Value": "810x2110mm"
+            }
+          ]
+        }
+      ],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3u453hxd0WGlG$yI5VrFzd",
+      "ifcEntityLabel": 1746,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315688"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "0tKh$bRUZEivUxO7Kn6MR8",
+      "ifcEntityLabel": 50628,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Windows_Sgl_Plain:910x910mm:349933:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1ee7ICQtUqLUtYVYQhJiFv",
+      "ifcEntityLabel": 50691,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314398"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3Qaoj8S60L5thwuGR1vp01",
+      "ifcEntityLabel": 50707,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "NBS_AssaAbloyLtd_DrsetSym_AASDTimberCertifiedSecurityDoor_Single:1000x2100mm:384841:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3FEZAjPDEh$acgPw6GLsVm",
+      "ifcEntityLabel": 50770,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314642"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1NF5AJQA8VL3L09BTHIIu2",
+      "ifcEntityLabel": 50834,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314642"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1cqaJO70eGsxxiQ_vXDDE1",
+      "ifcEntityLabel": 50898,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314748"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "2tWi3czLML6OO9S9zb61af",
+      "ifcEntityLabel": 50914,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Windows_Sgl_Plain:910x910mm:368703:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3nyV7l7hAjcvlfDUfVT2VR",
+      "ifcEntityLabel": 50977,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314748"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3dangvr3$6K8uUtXLz79dI",
+      "ifcEntityLabel": 50998,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:314955"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "2iHPTfCDjJwyoiL$W3_9i0",
+      "ifcEntityLabel": 51062,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315032"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "0x6Zn07iaxbmVU7gN__7Nr",
+      "ifcEntityLabel": 51078,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Windows_Sgl_Plain:910x910mm:368728:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3i2D_lkjdYI3oB1bE7HbFD",
+      "ifcEntityLabel": 51141,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315032"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "2DLZOORWeC2MRGPDb5wBjL",
+      "ifcEntityLabel": 51162,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:315247"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "27W_GEQQ_HyPp7PckOFnOH",
+      "ifcEntityLabel": 51178,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318140:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1akoIMtw8iXP4y6aMXiovt",
+      "ifcEntityLabel": 51193,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318215:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "0rDggrD6X3aSgqaecoxze4",
+      "ifcEntityLabel": 51208,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318219:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "2EDC$Gqj79mMOgJZ0HK10R",
+      "ifcEntityLabel": 51223,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318223:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1dNa4Lzay3jWP6haGcB92k",
+      "ifcEntityLabel": 51238,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318488:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "0D7sm1vi$mH9LiirA5Lc5$",
+      "ifcEntityLabel": 51253,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:318643:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "1MBaAUPCphFMx5gNlETjK7",
+      "ifcEntityLabel": 51268,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:385377:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "2ucEy2CbAZeE2$ntY5ZVhH",
+      "ifcEntityLabel": 51283,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:385705:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    },
+    {
+      "ifcSystemIndex": -1,
+      "ifcStoreyIndex": -1,
+      "ifcSpaceIndex": -1,
+      "propertySets": [],
+      "ifcExpressTypeName": "IfcOpeningElement",
+      "ifcGuid": "3lHCtaF5NBABMshsmSiMDX",
+      "ifcEntityLabel": 51298,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Doors_IntSgl:810x2110mm:385710:1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Opening"
+        }
+      ]
+    }
+  ],
+  "systems": [],
+  "storeys": [
+    {
+      "Elevation": 0.0,
+      "ifcExpressTypeName": "IfcBuildingStorey",
+      "ifcGuid": "3Zu5Bv0LOHrPC10026FoQQ",
+      "ifcEntityLabel": 121,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "CotaSoleira"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Level:Circle Head - Project Datum"
+        }
+      ]
+    },
+    {
+      "Elevation": 2.9999999999999996,
+      "ifcExpressTypeName": "IfcBuildingStorey",
+      "ifcGuid": "15Z0v90RiHrPC20026FoKR",
+      "ifcEntityLabel": 125,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Pavimento1"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Level:Circle Head - Project Datum"
+        }
+      ]
+    },
+    {
+      "Elevation": 5.9999999999999991,
+      "ifcExpressTypeName": "IfcBuildingStorey",
+      "ifcGuid": "2y1OcZ9QbCUwOhLlus$vTF",
+      "ifcEntityLabel": 129,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Pavimento2"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Level:Circle Head - Project Datum"
+        }
+      ]
+    },
+    {
+      "Elevation": -2.9999999999999991,
+      "ifcExpressTypeName": "IfcBuildingStorey",
+      "ifcGuid": "2y1OcZ9QbCUwOhLlus$vRz",
+      "ifcEntityLabel": 118,
+      "ifcInfo": [
+        {
+          "Name": "name",
+          "Value": "Cave"
+        },
+        {
+          "Name": "ObjectType",
+          "Value": "Level:Circle Head - Project Datum"
+        }
+      ]
+    }
+  ]
+}

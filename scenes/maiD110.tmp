@@ -1,0 +1,91 @@
+[gd_scene load_steps=11 format=3 uid="uid://dxvvlck8lej3f"]
+
+[ext_resource type="Environment" uid="uid://jvmpkdwaeaq" path="res://scenes/main-environment.tres" id="1_q8fpv"]
+[ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_elriq"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="3_s8mkj"]
+[ext_resource type="FontFile" uid="uid://biqtga8moh7ah" path="res://fonts/lilita_one_regular.ttf" id="3_w27de"]
+[ext_resource type="PackedScene" uid="uid://dbh6qiguyaldo" path="res://scenes/building.tscn" id="5_jvir8"]
+[ext_resource type="PackedScene" uid="uid://d2g78tpqbyf5g" path="res://objects/enemy.tscn" id="6_524w6"]
+[ext_resource type="Script" path="res://scenes/RigidBody3D.gd" id="7_2hdff"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fpmwk"]
+font = ExtResource("3_w27de")
+font_size = 36
+outline_size = 12
+outline_color = Color(0, 0, 0, 0.470588)
+
+[sub_resource type="BoxMesh" id="BoxMesh_sjxqg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k7kbj"]
+
+[node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1_q8fpv")
+
+[node name="Player" type="Node" parent="WorldEnvironment"]
+
+[node name="Player" parent="WorldEnvironment/Player" node_paths=PackedStringArray("crosshair") instance=ExtResource("2_elriq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.28874, 1.94961, -3.53438)
+crosshair = NodePath("../../../HUD/Crosshair")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)
+shadow_enabled = true
+shadow_opacity = 0.75
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("3_s8mkj")
+
+[node name="Crosshair" type="TextureRect" parent="HUD"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.35, 0.35)
+pivot_offset = Vector2(64, 64)
+
+[node name="Health" type="Label" parent="HUD"]
+offset_left = 48.0
+offset_top = 627.0
+offset_right = 138.0
+offset_bottom = 672.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+text = "100%"
+label_settings = SubResource("LabelSettings_fpmwk")
+vertical_alignment = 2
+
+[node name="Enemies" type="Node" parent="."]
+
+[node name="enemy-flying" parent="." instance=ExtResource("6_524w6")]
+transform = Transform3D(0.89913, 0, 0.437681, 0, 1, 0, -0.437681, 0, 0.89913, 0.894259, 0.440578, -10.1193)
+
+[node name="Level" type="Node" parent="."]
+
+[node name="Node3D" type="Node3D" parent="Level"]
+transform = Transform3D(1, 0, 0, 0, 0.969582, 0.244766, 0, -0.244766, 0.969582, -18.9937, -0.868885, 10.9152)
+
+[node name="Decoration" type="Node" parent="."]
+
+[node name="Building" parent="." instance=ExtResource("5_jvir8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.96313, 0, -14.2542)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+script = ExtResource("7_2hdff")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("BoxMesh_sjxqg")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("BoxShape3D_k7kbj")
+
+[connection signal="health_updated" from="WorldEnvironment/Player/Player" to="HUD" method="_on_health_updated"]
