@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dxvvlck8lej3f"]
+[gd_scene load_steps=14 format=3 uid="uid://dxvvlck8lej3f"]
 
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_4tec2"]
 [ext_resource type="Environment" uid="uid://jvmpkdwaeaq" path="res://scenes/main-environment.tres" id="1_q8fpv"]
@@ -6,8 +6,22 @@
 [ext_resource type="Script" path="res://scripts/hud.gd" id="3_s8mkj"]
 [ext_resource type="Texture2D" uid="uid://ddsiv5bb8cu10" path="res://assets/aim.png" id="5_j3pvx"]
 [ext_resource type="Script" path="res://scripts/Crosshair.gd" id="6_y248j"]
+[ext_resource type="Script" path="res://scripts/FpsCount.gd" id="7_37dto"]
 [ext_resource type="Script" path="res://scripts/Console.gd" id="7_drjwy"]
 [ext_resource type="Script" path="res://scripts/mini_map.gd" id="8_umqpi"]
+[ext_resource type="Script" path="res://spanning_tables/addons/spanning_table/spanning_table_container.gd" id="10_w2h7c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6eyd"]
+bg_color = Color(0.243137, 0.243137, 0.243137, 0.717647)
+border_color = Color(0.639216, 0.203922, 0.545098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4q1w2"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.678431, 0.211765, 0.576471, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_csn7s"]
 bg_color = Color(0, 0, 0, 0.133333)
@@ -32,6 +46,42 @@ shadow_opacity = 0.75
 [node name="HUD" type="CanvasLayer" parent="."]
 script = ExtResource("3_s8mkj")
 
+[node name="MapBackground" type="Panel" parent="HUD"]
+offset_left = 17.0
+offset_top = 9.0
+offset_right = 247.0
+offset_bottom = 159.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_q6eyd")
+
+[node name="MapContainer" type="SubViewportContainer" parent="HUD"]
+offset_left = 17.0
+offset_top = 9.0
+offset_right = 247.0
+offset_bottom = 159.0
+
+[node name="Map" type="SubViewport" parent="HUD/MapContainer"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(230, 150)
+render_target_update_mode = 4
+
+[node name="Camera3D" type="Camera3D" parent="HUD/MapContainer/Map"]
+transform = Transform3D(1, 0, 0, 0, -5.96046e-08, 1, 0, -1, -5.96046e-08, 0, 0, 0)
+v_offset = 1.2
+projection = 1
+current = true
+size = 30.0
+far = 1000.0
+script = ExtResource("8_umqpi")
+target = NodePath("../../../../WorldEnvironment/Player/Player")
+
+[node name="MapBorders" type="Panel" parent="HUD"]
+offset_left = 17.0
+offset_top = 9.0
+offset_right = 247.0
+offset_bottom = 159.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_4q1w2")
+
 [node name="Crosshair" type="TextureRect" parent="HUD"]
 anchors_preset = 8
 anchor_left = 0.5
@@ -50,49 +100,47 @@ size_flags_horizontal = 4
 texture = ExtResource("5_j3pvx")
 script = ExtResource("6_y248j")
 
-[node name="Panel" type="Panel" parent="HUD"]
+[node name="FpsCount" type="Label" parent="HUD"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.430298, 0.0802481, 0.937092, 1)
+text = "dasdasd"
+script = ExtResource("7_37dto")
+
+[node name="ConsolePanel" type="Panel" parent="HUD"]
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = 17.0
-offset_top = -55.0
-offset_right = 374.0
+offset_top = -322.0
+offset_right = 530.0
 offset_bottom = -15.0
 grow_vertical = 0
 size_flags_horizontal = 0
 size_flags_vertical = 4
 theme_override_styles/panel = SubResource("StyleBoxFlat_csn7s")
 
-[node name="Console" type="Label" parent="HUD/Panel"]
+[node name="Console" type="Label" parent="HUD/ConsolePanel"]
 layout_mode = 1
-anchors_preset = 14
-anchor_top = 0.5
+anchors_preset = 15
 anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = 6.0
-offset_top = -11.0
-offset_right = -7.0
-offset_bottom = 12.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+autowrap_mode = 3
+clip_text = true
 script = ExtResource("7_drjwy")
 
-[node name="SubViewportContainer" type="SubViewportContainer" parent="HUD"]
-offset_left = 17.0
-offset_top = 9.0
-offset_right = 247.0
-offset_bottom = 159.0
-
-[node name="SubViewport" type="SubViewport" parent="HUD/SubViewportContainer"]
-transparent_bg = true
-handle_input_locally = false
-size = Vector2i(230, 150)
-render_target_update_mode = 4
-
-[node name="Camera3D" type="Camera3D" parent="HUD/SubViewportContainer/SubViewport"]
-transform = Transform3D(1, 0, 0, 0, -5.96046e-08, 1, 0, -1, -5.96046e-08, 0, 31, 0)
-projection = 1
-current = true
-size = 20.0
-script = ExtResource("8_umqpi")
-target = NodePath("../../../../WorldEnvironment/Player/Player")
+[node name="SpanningTableContainer" type="Container" parent="HUD/ConsolePanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("10_w2h7c")
+columns = 1

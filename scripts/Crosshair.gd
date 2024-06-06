@@ -2,7 +2,7 @@ extends TextureRect
 
 	
 	
-func _process(delta):
+func _process(_delta):
 	self.modulate = GlobalProps.aim_color
 
 

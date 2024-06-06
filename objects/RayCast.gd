@@ -7,8 +7,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	
+func _process(_delta):
 	
 	if self.is_colliding():
 		
@@ -18,11 +17,13 @@ func _process(delta):
 		
 		GlobalProps.aim_color = Color(0.639,0.204,0.545)
 		
+		GlobalProps.console_text = str(GlobalProps.model_data[obj.get_parent().name.split(GlobalProps.name_split)[0]]) 
+		
 		if Input.is_action_just_pressed("interact"):
 			if obj.has_method("interact"):
 				obj.interact()
 		
 	else:
-
+		GlobalProps.console_text = ""
 		#$InteractUI.hide()
 		GlobalProps.aim_color = Color(1,1,1)

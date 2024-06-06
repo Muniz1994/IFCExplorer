@@ -31,14 +31,14 @@ func load_model() -> void:
 		# Create the collision objects to make the model walkable and interactable
 		for i in gltf_scene_root_node.get_children():
 			for y in i.get_children():
-				var name = y.name.split(GlobalProps.name_split)
-				print(name)
-				if name.size() > 1:
-					if name[1] in GlobalProps.collidable_types:
+				var mesh_name = y.name.split(GlobalProps.name_split)
+				if mesh_name.size() > 1:
+					if mesh_name[1] in GlobalProps.collidable_types:
 						var StaticBody = StaticBody3D.new()
 						
 						# Layer for the interaction
-						StaticBody.set_collision_layer_value(4,true) 
+						if mesh_name[1] in GlobalProps.interactable_types:
+							StaticBody.set_collision_layer_value(4,true) 
 						# Layer for the collision
 						StaticBody.set_collision_layer_value(1,true)
 						
@@ -49,7 +49,7 @@ func load_model() -> void:
 						StaticBody.add_child(Collider)
 							
 						y.add_child(StaticBody)
-					if name[1] in GlobalProps.excluded_types:
+					if mesh_name[1] in GlobalProps.excluded_types:
 						y.queue_free()
 					
 	else:
@@ -59,6 +59,7 @@ func load_model_data() -> void:
 	
 	var json_as_text = FileAccess.get_file_as_string(GlobalProps.model_data_file_path)
 	
-	var json = JSON.new()
-	var json_dict = json.parse_string(json_as_text)
+	var json_dict = JSON.parse_string(json_as_text)
+	
+	GlobalProps.model_data = json_dict
 	

@@ -19,6 +19,16 @@ var collidable_types: Array[String] = [
 	"IfcCovering"
 ]
 
+var interactable_types: Array[String] = [
+	"IfcWall",
+	"IfcSlab",
+	"IfcWallStandardCase",
+	"IfcRailing",
+	"IfcStair",
+	"IfcStairFlight",
+	"IfcCovering"
+]
+
 var excluded_types: Array[String] = [
 	"IfcBuildingElementProxy",
 	"IfcAnnotation",
