@@ -139,7 +139,6 @@ occlusion_culling/bvh_build_quality=0
 driver/threads/thread_model=2
 lights_and_shadows/directional_shadow/size=2048
 global_illumination/gi/use_half_resolution=true
-driver/depth_prepass/enable=false
 camera/depth_of_field/depth_of_field_bokeh_shape=0
 environment/ssao/quality=0
 environment/ssil/quality=0
