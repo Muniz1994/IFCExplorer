@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://fbbkacker4m3"]
 
-[ext_resource type="Script" path="res://scripts/Menu.gd" id="1_lfs7g"]
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_lfs7g"]
 [ext_resource type="FontFile" uid="uid://biqtga8moh7ah" path="res://fonts/lilita_one_regular.ttf" id="2_oj0lx"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ops2s"]

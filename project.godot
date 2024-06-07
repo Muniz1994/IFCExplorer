@@ -20,10 +20,10 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Global="*res://scenes/global.tscn"
-GlobalProps="*res://scenes/GlobalProps.gd"
-LoadManager="*res://scenes/load_manager.gd"
-ConvertManager="*res://managers/convert_manager.gd"
+GlobalProperties="*res://global/global_properties.gd"
+GlobalFunctions="*res://global/global_functions.gd"
+LoadManager="*res://global/load_manager.gd"
+AudioManager="*res://global/audio_manager.gd"
 
 [display]
 
@@ -39,6 +39,14 @@ project/assembly_name="Starter Kit FPS"
 
 movie_writer/mjpeg_quality=1.0
 movie_writer/movie_file="D:/Godot/test.avi"
+
+[file_customization]
+
+folder_colors={
+"res://export/": "gray",
+"res://global/": "pink",
+"res://ifcteste/": "gray"
+}
 
 [input]
 

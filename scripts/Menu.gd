@@ -2,19 +2,13 @@ extends Control
 
 @onready var load_file_dialog = $VBoxContainer/LoadFile
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-func _on_load_file_button_pressed():
+func _on_load_file_button_pressed() -> void:
 	load_file_dialog.visible = true
 	
-
-
-func _on_load_file_file_selected(path):
+func _on_load_file_file_selected(path: String) -> void:
 	 # Replace with function body.
-	await ConvertManager.convert_process(path)
-	LoadManager.load_scene("res://scenes/main.tscn") # Replace with function body.
+	await GlobalFunctions._convert_process(path)
+	
+	LoadManager._load_scene("res://scenes/main.tscn") # Replace with function body.
 
 

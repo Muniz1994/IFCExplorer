@@ -1,15 +1,15 @@
 [gd_scene load_steps=14 format=3 uid="uid://dxvvlck8lej3f"]
 
-[ext_resource type="Script" path="res://scenes/main.gd" id="1_4tec2"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_4tec2"]
 [ext_resource type="Environment" uid="uid://jvmpkdwaeaq" path="res://scenes/main-environment.tres" id="1_q8fpv"]
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_elriq"]
 [ext_resource type="Script" path="res://scripts/hud.gd" id="3_s8mkj"]
 [ext_resource type="Texture2D" uid="uid://ddsiv5bb8cu10" path="res://assets/aim.png" id="5_j3pvx"]
-[ext_resource type="Script" path="res://scripts/Crosshair.gd" id="6_y248j"]
-[ext_resource type="Script" path="res://scripts/FpsCount.gd" id="7_37dto"]
-[ext_resource type="Script" path="res://scripts/Console.gd" id="7_drjwy"]
+[ext_resource type="Script" path="res://scripts/crosshair.gd" id="6_y248j"]
+[ext_resource type="Script" path="res://scripts/fps_count.gd" id="7_37dto"]
+[ext_resource type="Script" path="res://scripts/console.gd" id="7_drjwy"]
 [ext_resource type="Script" path="res://scripts/mini_map.gd" id="8_umqpi"]
-[ext_resource type="Script" path="res://scripts/SaveSceneButton.gd" id="10_f2xeh"]
+[ext_resource type="Script" path="res://scripts/save_scene_button.gd" id="10_f2xeh"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6eyd"]
 bg_color = Color(0.243137, 0.243137, 0.243137, 0.717647)
