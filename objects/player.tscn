@@ -1,21 +1,87 @@
-[gd_scene load_steps=9 format=3 uid="uid://dl2ed4gkybggf"]
+[gd_scene load_steps=17 format=3 uid="uid://dl2ed4gkybggf"]
 
 [ext_resource type="Script" path="res://objects/player.gd" id="1_ffboj"]
-[ext_resource type="Resource" uid="uid://cu2gtxlcmbb34" path="res://weapons/blaster-repeater.tres" id="2_6epbw"]
-[ext_resource type="Texture2D" uid="uid://8ggihh27mlrr" path="res://sprites/blob_shadow.png" id="2_b0fo8"]
-[ext_resource type="Resource" uid="uid://c56y8pqoyk15f" path="res://weapons/blaster.tres" id="3_kr4p8"]
-[ext_resource type="SpriteFrames" uid="uid://dbv3sy5qjatnl" path="res://sprites/burst_animation.tres" id="4_m6ukc"]
+[ext_resource type="PackedScene" uid="uid://b2p7bbkuxf7m" path="res://models/blaster.glb" id="2_52yvf"]
+[ext_resource type="Script" path="res://scripts/weapon.gd" id="3_mjlns"]
+[ext_resource type="PackedScene" uid="uid://dd3oln1ucgqpd" path="res://models/blaster-repeater.glb" id="4_8bw5q"]
 [ext_resource type="Script" path="res://objects/RayCast.gd" id="5_5nux5"]
 [ext_resource type="AudioStream" uid="uid://cydjn1ct3hps2" path="res://sounds/walking.ogg" id="5_ics1s"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mhd8l"]
+load_path = "res://.godot/imported/crosshair.png-1281ee32d6777347e0f43a202c603c1b.s3tc.ctex"
+
+[sub_resource type="Resource" id="Resource_35ul2"]
+script = ExtResource("3_mjlns")
+model = ExtResource("2_52yvf")
+position = Vector3(0, 0, 0)
+rotation = Vector3(0, 180, 0)
+muzzle_position = Vector3(0.1, -0.4, 1.5)
+cooldown = 0.25
+max_distance = 10
+damage = 25.0
+spread = 1.0
+shot_count = 3
+knockback = 40
+sound_shoot = "sounds/blaster.ogg"
+crosshair = SubResource("CompressedTexture2D_mhd8l")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0ke64"]
+load_path = "res://.godot/imported/crosshair-repeater.png-ec408225e689b23875963003728cb016.ctex"
+
+[sub_resource type="Resource" id="Resource_f3o5n"]
+script = ExtResource("3_mjlns")
+model = ExtResource("4_8bw5q")
+position = Vector3(0, 0, 0)
+rotation = Vector3(0, 180, 0)
+muzzle_position = Vector3(0.1, -0.4, 1.5)
+cooldown = 0.1
+max_distance = 10
+damage = 10.0
+spread = 0.5
+shot_count = 1
+knockback = 10
+sound_shoot = "sounds/blaster_repeater.ogg"
+crosshair = SubResource("CompressedTexture2D_0ke64")
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdq8c"]
 radius = 0.3
 height = 1.0
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eet5j"]
+load_path = "res://.godot/imported/burst.png-0ca3a873296b113f4396e0bdead4beff.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mdaww"]
+atlas = SubResource("CompressedTexture2D_eet5j")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nr3w"]
+atlas = SubResource("CompressedTexture2D_eet5j")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_64r62"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mdaww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nr3w")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v825n"]
+load_path = "res://.godot/imported/blob_shadow.png-d19f4ffceb1d99dd3331acec2dc6d7df.ctex"
+
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 script = ExtResource("1_ffboj")
-weapons = Array[Resource("res://scripts/weapon.gd")]([ExtResource("3_kr4p8"), ExtResource("2_6epbw")])
+weapons = Array[ExtResource("3_mjlns")]([SubResource("Resource_35ul2"), SubResource("Resource_f3o5n")])
 
 [node name="Collider" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
@@ -50,6 +116,7 @@ theme_override_font_sizes/font_size = 30
 text = "Interact [E]"
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="Head/Camera"]
+visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -62,9 +129,10 @@ transparent_bg = true
 handle_input_locally = false
 msaa_3d = 1
 size = Vector2i(1280, 720)
-render_target_update_mode = 4
+render_target_update_mode = 0
 
 [node name="CameraItem" type="Camera3D" parent="Head/Camera/SubViewportContainer/SubViewport"]
+visible = false
 cull_mask = 1047554
 fov = 40.0
 
@@ -74,7 +142,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2, -1, -2.25)
 [node name="Muzzle" type="AnimatedSprite3D" parent="Head/Camera/SubViewportContainer/SubViewport/CameraItem"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.75, -6)
 layers = 2
-sprite_frames = ExtResource("4_m6ukc")
+sprite_frames = SubResource("SpriteFrames_64r62")
 frame = 2
 
 [node name="RayCast" type="RayCast3D" parent="Head/Camera"]
@@ -86,7 +154,7 @@ collide_with_areas = true
 [node name="Shadow" type="Decal" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.9, 0)
 size = Vector3(1, 2, 1)
-texture_albedo = ExtResource("2_b0fo8")
+texture_albedo = SubResource("CompressedTexture2D_v825n")
 modulate = Color(1, 1, 1, 0.705882)
 normal_fade = 0.5
 
