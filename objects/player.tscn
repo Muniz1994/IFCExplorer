@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dl2ed4gkybggf"]
+[gd_scene load_steps=6 format=3 uid="uid://dl2ed4gkybggf"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_ilynw"]
 [ext_resource type="Script" path="res://scripts/ray_cast.gd" id="5_5nux5"]
@@ -8,34 +8,6 @@
 radius = 0.3
 height = 1.0
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eet5j"]
-load_path = "res://.godot/imported/burst.png-0ca3a873296b113f4396e0bdead4beff.ctex"
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mdaww"]
-atlas = SubResource("CompressedTexture2D_eet5j")
-region = Rect2(0, 0, 256, 256)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3nr3w"]
-atlas = SubResource("CompressedTexture2D_eet5j")
-region = Rect2(256, 0, 256, 256)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_64r62"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mdaww")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_3nr3w")
-}, {
-"duration": 1.0,
-"texture": null
-}],
-"loop": false,
-"name": &"default",
-"speed": 30.0
-}]
-
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v825n"]
 load_path = "res://.godot/imported/blob_shadow.png-d19f4ffceb1d99dd3331acec2dc6d7df.ctex"
 
@@ -44,11 +16,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 script = ExtResource("1_ilynw")
 
 [node name="Collider" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
 shape = SubResource("CapsuleShape3D_gdq8c")
 
 [node name="Head" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
 
 [node name="Camera" type="Camera3D" parent="Head"]
 cull_mask = 1048573
@@ -99,12 +70,6 @@ fov = 40.0
 [node name="Container" type="Node3D" parent="Head/Camera/SubViewportContainer/SubViewport/CameraItem"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2, -1, -2.25)
 
-[node name="Muzzle" type="AnimatedSprite3D" parent="Head/Camera/SubViewportContainer/SubViewport/CameraItem"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.75, -6)
-layers = 2
-sprite_frames = SubResource("SpriteFrames_64r62")
-frame = 2
-
 [node name="RayCast" type="RayCast3D" parent="Head/Camera"]
 visible = false
 exclude_parent = false
@@ -122,6 +87,3 @@ normal_fade = 0.5
 stream = ExtResource("5_ics1s")
 volume_db = -5.0
 autoplay = true
-
-[node name="Cooldown" type="Timer" parent="."]
-one_shot = true

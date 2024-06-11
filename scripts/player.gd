@@ -7,7 +7,7 @@ extends CharacterBody3D
 var mouse_sensitivity = 700
 var gamepad_sensitivity := 0.075
 
-var mouse_captured := true
+var mouse_captured: bool = true
 
 var movement_velocity: Vector3
 var rotation_target: Vector3
@@ -28,10 +28,8 @@ var tween:Tween
 
 @onready var camera = $Head/Camera
 @onready var raycast = $Head/Camera/RayCast
-@onready var muzzle = $Head/Camera/SubViewportContainer/SubViewport/CameraItem/Muzzle
 @onready var container = $Head/Camera/SubViewportContainer/SubViewport/CameraItem/Container
 @onready var sound_footsteps = $SoundFootsteps
-@onready var blaster_cooldown = $Cooldown
 
 @export var crosshair:TextureRect
 
@@ -107,15 +105,17 @@ func handle_controls(_delta):
 	
 	# Mouse capture
 	
-	if Input.is_action_just_pressed("mouse_capture"):
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-		mouse_captured = true
-	
 	if Input.is_action_just_pressed("mouse_capture_exit"):
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-		mouse_captured = false
+		if mouse_captured:
+			print('mouse_captured == true')
+			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+			input_mouse = Vector2.ZERO
+		else:
+			print('mouse_captured == false')
+			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		mouse_captured = !mouse_captured  # Toggle the boolean value
 		
-		input_mouse = Vector2.ZERO
+		
 	
 	# Movement
 	

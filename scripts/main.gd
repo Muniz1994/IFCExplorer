@@ -1,5 +1,7 @@
 extends Node3D
 
+@onready var save_scene_dialog: FileDialog = $SaveScene
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
@@ -64,3 +66,16 @@ func load_model_data() -> void:
 	
 	GlobalProperties._model_data = json_dict
 	
+
+
+func _on_save_scene_button_pressed():
+	save_scene_dialog.visible = true
+	
+
+func _on_save_scene_file_selected(path):
+	if path:
+		var scene:PackedScene = PackedScene.new()
+		scene.pack(self)
+		ResourceSaver.save(scene, path)
+	else:
+		pass

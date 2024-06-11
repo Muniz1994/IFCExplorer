@@ -67,3 +67,5 @@ func _convert_model(ifc_file_path: String) -> void:
 	
 	GlobalProperties._model_data_file_path = _change_extension(ifc_file_path, ".json")
 	
+func _load_scene(scene_path: String) -> void:
+	pass

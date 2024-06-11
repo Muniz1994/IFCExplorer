@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dxvvlck8lej3f"]
+[gd_scene load_steps=13 format=3 uid="uid://dxvvlck8lej3f"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_4tec2"]
 [ext_resource type="Environment" uid="uid://jvmpkdwaeaq" path="res://scenes/main-environment.tres" id="1_q8fpv"]
@@ -9,7 +9,6 @@
 [ext_resource type="Script" path="res://scripts/fps_count.gd" id="7_37dto"]
 [ext_resource type="Script" path="res://scripts/console.gd" id="7_drjwy"]
 [ext_resource type="Script" path="res://scripts/mini_map.gd" id="8_umqpi"]
-[ext_resource type="Script" path="res://scripts/save_scene_button.gd" id="10_f2xeh"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6eyd"]
 bg_color = Color(0.243137, 0.243137, 0.243137, 0.717647)
@@ -155,6 +154,14 @@ pivot_offset = Vector2(1, 0)
 layout_mode = 2
 size_flags_horizontal = 8
 text = "Save scene"
-script = ExtResource("10_f2xeh")
 
+[node name="SaveScene" type="FileDialog" parent="."]
+initial_position = 2
+size = Vector2i(392, 400)
+ok_button_text = "Save"
+access = 2
+filters = PackedStringArray("*.tscn")
+
+[connection signal="pressed" from="HUD/HSplitContainer/SaveSceneButton" to="." method="_on_save_scene_button_pressed"]
 [connection signal="pressed" from="HUD/HSplitContainer/SaveSceneButton" to="HUD/HSplitContainer/SaveSceneButton" method="_on_pressed"]
+[connection signal="file_selected" from="SaveScene" to="." method="_on_save_scene_file_selected"]
