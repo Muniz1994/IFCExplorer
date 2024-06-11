@@ -1,7 +1,7 @@
 extends Control
 
 @onready var load_file_dialog = $VBoxContainer/LoadFile
-@onready var load_scene_dialog = $VBoxContainer/LoadScene
+@onready var load_gltf_dialog = $VBoxContainer/LoadGltf
 
 func _on_load_file_button_pressed() -> void:
 	load_file_dialog.visible = true
@@ -12,9 +12,17 @@ func _on_load_file_file_selected(path: String) -> void:
 	
 	LoadManager._load_scene("res://scenes/main.tscn") # Replace with function body.
 
-func _on_load_scene_button_pressed():
-	load_scene_dialog.visible = true
 
-func _on_load_scene_file_selected(path):
-	
-	await GlobalFunctions._load_scene(path)
+func _on_load_gltf_button_pressed():
+	load_gltf_dialog.visible = true
+
+
+func _on_load_gltf_file_selected(path):
+	if path:
+		GlobalProperties._gltf_file_path = path
+		
+		GlobalProperties._model_data_file_path = GlobalFunctions._change_extension(path, ".json")
+		
+		LoadManager._load_scene("res://scenes/main.tscn") # Replace with function body.
+	else:
+		pass

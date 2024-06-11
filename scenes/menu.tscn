@@ -44,13 +44,13 @@ theme_override_fonts/font = ExtResource("2_oj0lx")
 theme_override_font_sizes/font_size = 20
 text = "Load File"
 
-[node name="LoadSceneButton" type="Button" parent="VBoxContainer"]
+[node name="LoadGltfButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_oj0lx")
 theme_override_font_sizes/font_size = 20
-text = "Load Scene"
+text = "Load Gltf"
 
-[node name="LoadScene" type="FileDialog" parent="VBoxContainer"]
+[node name="LoadGltf" type="FileDialog" parent="VBoxContainer"]
 title = "Open a File"
 initial_position = 2
 size = Vector2i(392, 400)
@@ -67,8 +67,6 @@ file_mode = 0
 access = 2
 
 [connection signal="pressed" from="VBoxContainer/LoadFileButton" to="." method="_on_load_file_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/LoadSceneButton" to="." method="_on_load_file_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/LoadSceneButton" to="." method="_on_load_scene_button_pressed"]
-[connection signal="file_selected" from="VBoxContainer/LoadScene" to="." method="_on_load_file_file_selected"]
-[connection signal="file_selected" from="VBoxContainer/LoadScene" to="." method="_on_load_scene_file_selected"]
+[connection signal="pressed" from="VBoxContainer/LoadGltfButton" to="." method="_on_load_gltf_button_pressed"]
+[connection signal="file_selected" from="VBoxContainer/LoadGltf" to="." method="_on_load_gltf_file_selected"]
 [connection signal="file_selected" from="VBoxContainer/LoadFile" to="." method="_on_load_file_file_selected"]

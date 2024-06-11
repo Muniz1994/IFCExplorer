@@ -41,6 +41,8 @@ func _change_extension(file_path:String, extension:String) -> String:
 	
 	if file_path.ends_with(".ifc"):
 		return file_path.substr(0, file_path.length() - 4) + extension
+	elif file_path.ends_with(".gltf"):
+		return file_path.substr(0, file_path.length() - 5) + extension
 	else:
 		return file_path
 		

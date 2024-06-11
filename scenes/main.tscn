@@ -151,6 +151,7 @@ grow_vertical = 0
 pivot_offset = Vector2(1, 0)
 
 [node name="SaveSceneButton" type="Button" parent="HUD/HSplitContainer"]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 8
 text = "Save scene"
