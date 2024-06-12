@@ -64,7 +64,10 @@ func load_model_data() -> void:
 	
 	var json_dict = JSON.parse_string(json_as_text)
 	
-	GlobalProperties._model_data = json_dict
+	if json_dict:
+		GlobalProperties._model_data = json_dict
+	else:
+		pass
 	
 
 
