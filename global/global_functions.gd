@@ -63,7 +63,7 @@ func _convert_process(ifc_path:String) -> void:
 	
 func _convert_model(ifc_file_path: String) -> void:
 	
-	OS.execute("modelreader/IfcToGlftWin.exe",[ifc_file_path],GlobalProperties._ifc_converter_output,true,false)
+	OS.execute(GlobalProperties.CONVERTER_PATH,[ifc_file_path],GlobalProperties._ifc_converter_output,true,false)
 	
 	GlobalProperties._gltf_file_path = _change_extension(ifc_file_path,".gltf")
 	

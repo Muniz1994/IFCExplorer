@@ -1,6 +1,10 @@
 extends Node
 
+
+
 # Consts -----------------------------------------------------------------------
+
+const CONVERTER_PATH: String = "modelreader/IfcToGlftWin.exe"
  
 const COLLIDABLE_TYPES: Array[String] = [
 	"IfcSite",
